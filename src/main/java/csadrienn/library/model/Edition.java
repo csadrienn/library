@@ -1,4 +1,4 @@
-package com.library.model;
+package csadrienn.library.model;
 
 import java.util.Date;
 

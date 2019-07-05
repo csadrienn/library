@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter() 
+}
+
+dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.16' 
+    testImplementation 'junit:junit:4.12' 
+}
+
+mainClassName = 'csadrienn.library.Main'
