@@ -32,55 +32,7 @@ public class Main {
 			return;
 		}
 		refreshLists();
-		
-//		if(!db.createTables()) {
-//			System.out.println("Can't create the tables");
-//			return;
-//		}
-		
-//		Member student1 = new Member("ADAM SMITH", "S");
-//		Member student2 = new Member("PETER JOHNSON", "S");
-//		Member student3 = new Member("SUSAN HALL", "S");
-//		Member teacher1 = new Member("THOMAS MILLER", "T");
-//		Member teacher2 = new Member("VIVIAN GREEN", "T");
-//		Member teacher3 = new Member("EVA WOOD", "T");
-//		
-//		Book prideAndPrejudice = new Book("PRIDE AND PREJUDICE", "JANE AUSTEN");
-//		Book treasureIsland = new Book("TREASURE ISLAND", "ROBERT LOUIS STEVENSON");
-//		Book _1984 = new Book("1984", "GEORGE ORWELL");
-//		
-//		
-//		Edition prideAndPrejudice1 = new Edition("978-0141439518", "2002");
-//		Edition prideAndPrejudice2 = new Edition("978-1909621657", "2016");
-//		Edition prideAndPrejudice3 = new Edition("978-0174324997", "1992");
-//		
-//		Edition treasureIsland1 = new Edition("978-1603400268", "2008");
-//		Edition treasureIsland2 = new Edition("978-0763644451", "2009");
-//		
-//		Edition _1984_1 = new Edition("978-0451524935", "1961");
-//		Edition _1984_2 = new Edition("978-0679417392", "1992");
-//		Edition _1984_3 = new Edition("978-9389053739", "2019");
-//		
-//		
-//		db.insertMember(student1);
-//		db.insertMember(student2);
-//		db.insertMember(student3);
-//		db.insertMember(teacher1);
-//		db.insertMember(teacher2);
-//		db.insertMember(teacher3);
-//		
-//		db.insertEdition(prideAndPrejudice1, prideAndPrejudice);
-//		db.insertEdition(prideAndPrejudice2, prideAndPrejudice);
-//		db.insertEdition(prideAndPrejudice3, prideAndPrejudice);
-//		db.insertEdition(treasureIsland1, treasureIsland);
-//		db.insertEdition(treasureIsland2, treasureIsland);
-//		db.insertEdition(_1984_1, _1984);
-//		db.insertEdition(_1984_2, _1984);
-//		db.insertEdition(_1984_3, _1984);
 
-//		refreshLists();	
-		
-		
 		scanner = new Scanner(System.in);
 		boolean quit = false;
 		
